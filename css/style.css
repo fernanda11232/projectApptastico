@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background: #1E172F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #7C7785;
+}
+
+a:hover {
+    color: blue;
+}
+
+#boton-about {
+    color: white;
+}
+
+#boton-about:hover {
+   color: blue;
+}
+
+#boton-download {
+    background: linear-gradient( #8640D5, #047ED5);
+    padding: 10px;
+    color: #f7f3ff;
+    border-radius: 5px;
+}
+
+.contain-section1 {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.contain-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #2E2550;
+    color: white;
+    width: 55%;
+    
+
+}
+
+h1 {
+    font-size: 50px;
+    /* margin-bottom: 10px ; */
+}
+
+#paragraph-section1 {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.contain-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 270px;
+    border: 2px #7C7785 solid;
+    border-radius: 5px;
+    margin-top: 30px;
+    height: 50px;
+
+}
+
+.button-download-2 {
+    background: hwb(262 97% 0%);
+    color : #F41486;
+    border-radius: 3px;
+    /* height: 10px;  */
+    padding: 10px;
+    
+    
+}
+
+.button-features {
+    background: #2E2550;
+    text-align: center;
+    border: 2px #f7f3ff solid;
+    border-radius: 3px;
+    color: #f7f3ff;
+    padding: 10px;
+    width: 90px;
+    
+}
+
+.contain-img {
+    background-image: url(/img/otoño.jpg);
+    width: 50%;
+}
+
+.img-phone {
+    height: 350px;
+    margin: 100px;
+}
+
+.container-section2 {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-left: 100px; */
+    margin: 90px;
+}
+
+.img-laptop {
+    height: 300px;
+}
+
+#Subt-Fonc {
+    color: #F41486;
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+}
+
+h3 {
+    color: #b62871;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#paragraph-section2 {
+    font-size: 15px;
+    padding-bottom: 30px;
+
+}
+
+h4 {
+    color: #F41486;
+    padding-bottom: 10px;
+
+}
+
+i {
+    color: #F41486;
+}
+
+.contain-section3 {
+    background: #1E172F;
+    height: 720px;
+    padding: 10px;
+
+    
+}
+
+#subt-section3 {
+    text-align: center;
+    color: #f7f3ff;
+    margin: 30px;
+    font-size: 40px;
+    
+}
+
+#paragraph-section3 {
+    color: #7C7785;
+    text-align: center;
+}
+
+.contain-pricing {
+    display: flex;
+    justify-content: center;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    margin: 50px;
+    text-align: center;
+    
+}
+
+.contain-card {
+    background: #f7f3ff;
+    height: 400px;
+    padding-bottom: 30px;
+    border-radius: 5px 5px 0 0 ;
+    width: 200px;
+}
+
+.text{
+    background: #dbe6f0;
+    padding: 15px;
+}
+
+#subt {
+    color: #F41486;
+}
+
+.ul-list {
+    margin-bottom: 30px;
+}
+
+.paragraph {
+margin-bottom: 30px;
+}
+
+.button-suscribete-now {
+    background: linear-gradient(#EB66AB, #F41486);
+    padding: 8px;
+    border-radius: 5px;
+    color: #f7f3ff;
+}
+
+.contain-button {
+    background: #dbe6f0;
+    padding: 15px;
+    border-radius: 0 0 5px 5px;
+}
+
+.button-suscribete {
+    background: #2E2550;
+    padding: 10px;
+    border-radius: 5px;
+    color: #f7f3ff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+} 
+
+#contain-footer {
+    display: flex;
+    
+}
+
+#text-center {
+    color: #F41486;
+}
+
+ .list-ul-final {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        height: 140px;
+    }
+
+    .contain-section1 {
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #paragraph-section1 {
+        font-size: 15px;
+    }
+
+    .contain-buttons {
+        height: 50px;
+        width: 230px;
+        margin: 30px;
+    }
+
+    .button-download-2 {
+        height: 20px;
+        font-size: 12px;
+
+    }
+
+    .contain-img {
+        width: 400px;
+    }
+
+    .img-phone {
+        height: 200px;
+        margin: 50px;
+    }
+
+    .container-section2 {
+        flex-direction: column;
+    }
+
+    .img-laptop {
+        height: 150px;
+        margin-bottom: 30px;
+    }
+
+    .contain-section3 {
+        height: 750px;
+    }
+
+    .contenido {
+        text-align: center;
+    }
+
+    .contain {
+        width: 480px;
+        font-size: 12px;    
+    }
+
+    .contain-card {
+        margin: 10px;
+    }
+
+    .list-ul-final {
+        width: 100px;
+        justify-content: space-between;
+    }
+
+  
+}
+
+ /* #contain-contenido {
+    display: flex; */
+ 
+/* .container {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* .container-card {
+    background:salmon;
+    padding-left: 23px;
+    width: 200px;
+    height: 450px;
+    margin-bottom: 30px;
+    border-radius:5px 5px 0 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+/* #boton-download {
+    background: #8640D5  #047ED5;
+} */
+
+
+/* 
+Header: #1E172F
+Letras menú atenuado: #7C7785
+Botón Download: Degradado de #8640D5 a #047ED5
+Fondo Product Page: #2E2550
+Fuente Lila: #F41486
+Fondo Funcionalidades: #F1F2F7
+Fondo Planes y Precios: #1E172F
+Botón Subscribe Now: Degradado de #EB66AB a #F41486 */
